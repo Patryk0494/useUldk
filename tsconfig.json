@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+    "noEmit": true,
+    "moduleResolution": "node",
+    "target": "es2020",
+    "module": "esnext",
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "declaration":true,
+    "declarationDir": "./dist",
+    "allowSyntheticDefaultImports": true
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+
+}
